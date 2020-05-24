@@ -1,0 +1,88 @@
+h2{
+  width: 750px;
+  height: 46px;
+  margin: 0 auto;
+  padding: 10px 0 10px 30px;
+  background: linear-gradient(#f5f5f5, #eaeaea);
+  border-top: 1px solid #000;
+  border-bottom:1px solid #000;
+  clear: both;
+}
+
+span{
+  color: #f55;
+}
+
+p.bun{
+  width: 720px;
+  margin: 10px auto;
+  padding:0 0 0 15px;
+}
+
+dl{
+ width: 550px;
+ height: 44px;
+ /* margin: 0 auto; */
+ /* padding: 5px 50px; */
+}
+
+dt{
+  font-size: 14px;
+  width: 150px;
+  line-height: 34px;
+  margin: 5px 0;
+  float: left;
+}
+
+dd input{
+  width: 400px;
+  font-size: 16px;
+  margin: 5px 0;
+  float: right;
+}
+dd#coment{
+  width: 650px;
+  text-align: center;
+}
+
+#form1 dd{
+  width: 400px;
+  font-size: 16px;
+  margin: 5px 0;
+  float: right;
+
+}
+
+#form1{
+  width: 650px;
+  height: 215px;
+  margin: 0 auto;
+  padding: 20px 50px;
+  clear: both;
+}
+#form2{
+  width: 750px;
+  height: 450px;
+  margin: 0 auto;
+  padding: 20px 50px;
+  clear: both;
+}
+
+textarea{
+  width: 650px;
+  height: 300px;
+  margin:  10px 0;
+}
+
+#submit_btn{
+  width: 100px;
+  height: 38px;
+  font-size: 16px;
+  margin: 20px 275px;
+  font-weight: bold;
+}
+
+
+#top_r a{
+  padding: 0 452px 0 425px;
+}

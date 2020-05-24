@@ -1,0 +1,74 @@
+<?php
+declare(strict_types=1);
+
+namespace App\Test\TestCase\Model\Table;
+
+use App\Model\Table\ContactTable;
+use Cake\ORM\TableRegistry;
+use Cake\TestSuite\TestCase;
+
+/**
+ * App\Model\Table\ContactTable Test Case
+ */
+class ContactTableTest extends TestCase
+{
+    /**
+     * Test subject
+     *
+     * @var \App\Model\Table\ContactTable
+     */
+    protected $Contact;
+
+    /**
+     * Fixtures
+     *
+     * @var array
+     */
+    protected $fixtures = [
+        'app.Contact',
+    ];
+
+    /**
+     * setUp method
+     *
+     * @return void
+     */
+    public function setUp(): void
+    {
+        parent::setUp();
+        $config = TableRegistry::getTableLocator()->exists('Contact') ? [] : ['className' => ContactTable::class];
+        $this->Contact = TableRegistry::getTableLocator()->get('Contact', $config);
+    }
+
+    /**
+     * tearDown method
+     *
+     * @return void
+     */
+    public function tearDown(): void
+    {
+        unset($this->Contact);
+
+        parent::tearDown();
+    }
+
+    /**
+     * Test validationDefault method
+     *
+     * @return void
+     */
+    public function testValidationDefault(): void
+    {
+        $this->markTestIncomplete('Not implemented yet.');
+    }
+
+    /**
+     * Test buildRules method
+     *
+     * @return void
+     */
+    public function testBuildRules(): void
+    {
+        $this->markTestIncomplete('Not implemented yet.');
+    }
+}

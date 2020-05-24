@@ -1,0 +1,10 @@
+#map p{
+  font-size: 14px;
+}
+
+#map{
+  width: 940px;
+  padding: 30px;
+  background: #eeffff;
+  margin: 0 auto;
+}
